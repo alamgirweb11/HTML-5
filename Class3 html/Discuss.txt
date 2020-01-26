@@ -1,0 +1,5 @@
+Discuss about:
+		1.Map and area tag and design a map.
+		2.Resposive image 
+		3.div and span tag
+		4.about html table(html4 & html5)

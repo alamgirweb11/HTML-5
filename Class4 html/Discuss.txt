@@ -1,0 +1,19 @@
+Disscus about: 
+		1.Form tag
+		2.Form method:-
+			*GET
+			*POST
+		3.Compare between get and post or different between get and post.
+		4.Form type(8):-
+			*text input control(2):-
+						#Sinlge line(2):-
+							1.raw text
+							2.hidden text
+						#multi line
+			*checkbox input control
+			*radio input control
+			*selectbox input control
+			*file select box input control
+			*hidden input control
+			*clickbox input control
+			*submit and reset

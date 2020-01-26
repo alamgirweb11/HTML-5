@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About all the form tag</title>
+</head>
+<body>    <h2>Single line text input controls</h2>
+	      <form action="">
+	      	Name: <input type="text" name="usrname" size="30"><br><br>
+	      	Color: <input type="color" name="favcolor" size="30"><br><br>
+	      	E-mail: <input type="text" name="email" size="30"><br><br>
+	      	Password: <input type="password" name="password" size="30"><br><br>
+	      	Date of Birth: <input type="date" name="dbirth" size="30"><br><br>
+	      	Month: <input type="month" name="bdaymonth" size="30"><br><br>
+	      	Week: <input type="week" name="week_year" size="30"><br><br>
+	      	Date and Time: <input type="datetime-local" name="bdaytime" size="30"><br><br>
+	      	Telephone: <input type="tel" name="usrtel" size="30"><br><br>
+	      	Number: <input type="number" name="quantity" min="1" max="5"size="30"><br><br>
+            Range: <input type="range" name="range" min="0" max="5"size="30"><br><br>
+            URL: <input type="url" name="homepage" size="30"><br><br>
+            Search: <input type="search" name="googlesearch" size="30"><br><br>
+            Time: <input type="time" name="usr_time" size="30">
+	      </form>
+	      <h2>Multiple line text input controls</h2>
+	      <form action="">
+	      	Drescription:<br>
+	      	<textarea name="Drescription" cols="50" rows="10">
+Drescription here...
+	      	</textarea>
+	      </form>
+	      <h2>Checkbox</h2>
+	      <form action="">
+	      	 <input type="Checkbox" name="bangla" size="30" value="on">Bangla<br><br>
+	      	 <input type="Checkbox" name="english" size="30" value="on">English<br><br>
+	      	 <input type="Checkbox" name="mathmatics" size="30" value="on">Mathmatics<br><br>
+	      	 <input type="Checkbox" name="science" size="30" value="on">Science<br><br>
+	      	 <input type="Checkbox" name="genaral knowledge" size="30" value="on">Genaral Knowledge<br><br>
+	      </form>
+	      <h2>Radio Button</h2>
+	      <form action="">
+	      	 <input type="radio" name="bangla" size="30" value="on">Bangla<br><br>
+	      	 <input type="radio" name="english" size="30" value="on">English<br><br>
+	      	 <input type="radio" name="mathmatics" size="30" value="on">Mathmatics<br><br>
+	      	 <input type="radio" name="science" size="30" value="on">Science<br><br>
+	      	 <input type="radio" name="genaral knowledge" size="30" value="on">Genaral Knowledge<br><br>
+	      </form>
+	      <h2>Select Box</h2>
+	      <form action="">
+	      	<select name="dropdown" id="">
+	      		<option value="mathematics" selected="selected">Mathmatics</option>
+	      		<option value="Bangla">Bangla</option>
+	      		<option value="English">English</option>
+	      		<option value="Religion">Religion</option>
+	      		<option value="Science">Science</option>
+	      	</select>
+	      </form>
+	       <h2>Select Box with optgroup tag</h2>
+	      <form action="">
+	      	<select>
+	      		<optgroup label="Subjects">
+	      		<option value="mathematics">Mathmatics</option>
+	      		<option value="Bangla">Bangla</option>
+	      		<option value="English">English</option>
+	      		</optgroup>
+	      		<optgroup label="Subjects">
+	      		<option value="Religion">Religion</option>
+	      		<option value="Science">Science</option>
+	      		<option value="Science">Science</option>
+	      	</optgroup>
+	      	</select>
+	      </form>
+	      <h2>File upload</h2>
+	      <form action="">
+	      	<input type="file" name="fileupload" accept="image/*"> 
+	      </form>
+	      <h2>All button</h2>
+	      <form action="">
+	      	  <input type="submit" value="submit" name="submite"><br><br>
+	      	  <input type="submit" value="Login" name="login"><br><br>
+	      	  <input type="Reset" value="Reset" name="reset"><br><br>
+	      	  <input type="submit" value="Ok" name="submit"><br><br>
+	      	  <input type="image" name="imagebutton" src="button.png" height="75" width="200"><br><br>
+	      </form>
+	      <h2>Use fieldset and legend</h2>
+	      <form action="">
+	      	<fieldset>
+	      		<legend>Personal Data:</legend>
+	      		Name:<input type="text" name="usrname" size="30"><br><br>
+	      		Emial:<input type="text" name="usremail" size="30"><br><br>
+	      		Password:<input type="password" name="password" size="30"><br><br>
+	      	</fieldset>
+	      </form>
+</body>
+</html>
